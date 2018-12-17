@@ -1,0 +1,146 @@
+<!doctype html>
+<html ng-app="yachtApp" class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+  <script src="js/vendor/angular.js"></script>
+  <script src="js/vendor/angular-animate.min.js"></script>
+  <script src="js/vendor/angular-route.min.js"></script>
+
+
+    <!-- The font Awesome code below is several revisions back.
+     https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font-family
+      I discovered that it would work from an article on stack overflow.  all code should at some point be updated to relfect the last calling syntax for font awesome -->
+
+     <link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/subnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+  </head>
+  <body>
+    <div data-sticky-container>
+      <div class="sticky" data-sticky data-margin-top="0">
+    <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#"><strong>Final</strong></a>
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="#">Home</a></li>
+            <li><a href="services.HTML">Services</a></li>
+            <li><a href="contact.HTML">Contact</a></li>
+            <li><a href="inventory.HTML">About the Jobs</a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      </div>
+    </nav>
+
+<style>
+.parallax {
+    /* The image used */
+    background-image: url("images/infotech.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+
+<div class="parallax"></div>
+
+Ryan Ramnarine
+Commited to Excellence
+</div>
+
+
+
+
+
+<!-- Begin Angular-->
+ <div ng-view></div>
+
+<!-- End Angular -->
+
+
+<!-- Begin Content-->
+<div class="wide-article-link">
+  <div class="row">
+    <div class="small-12 medium-9 columns">
+      <h4 class="article-title">
+        <a href="#">
+          About
+        </a>
+      </h4>
+      <p class="article-author"><em>by <a href="#">TechCrunch</a></em></p>
+      <p class="article-elipsis">​My name is Ryan Ramnarine. I study Internet and Information Technology at QueensBorough Community College. I like watching basketball, playing video games and spending time with my family. <a href="#" class="read-more">Read more</a></p>
+      <div class="article-social">
+        <a href="#" class="button social comments">
+          <i class="fa fa-comments-o" aria-hidden="true"></i> 0
+        </a>
+        <a href="#" class="button social facebook">
+          <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="button social twitter">
+          <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="button social linkedin">
+          <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="button social google-plus">
+          <i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="small-12 medium-3 columns flex-container align-middle">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.ZHcnUQaPHnzxEEZBVFq3CQHaGu&pid=15.1&P=0&w=195&h=178">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- End Contenxt-->
+
+<!-- Begin Footer-->
+
+        </footer>
+
+<!-- End Footer -->
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+
+
+  </body>
+</html>
